@@ -1,4 +1,6 @@
 import unittest
+import string
+import random
 
 """
 merge sort
@@ -130,6 +132,13 @@ class TestStringMethods(unittest.TestCase):
       'o', 'o', 'o', 'p', 'q', 'r', 'r', 's', 't', 
       'u', 'u', 'v', 'w', 'x', 'y', 'z'
     ]
+
+    self.assertEqual(merge_sort(input), expected)
+
+  def test_generated(self):
+    input = [random.choice(string.ascii_letters) for _ in range(0, 10000)]
+    expected = input.copy()
+    expected.sort()
 
     self.assertEqual(merge_sort(input), expected)
 
