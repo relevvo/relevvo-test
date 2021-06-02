@@ -6,7 +6,7 @@ merge sort
 
   In a best case, all of left and right lists will be sorted and it will
   march through the first and then append the second at each step. Using
-  a recursive solution incurs some overhead. 
+  a recursive solution incurs some overhead but it is nicely readable. 
 
   For merge, worst case is that each compare swaps the march.
 
