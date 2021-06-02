@@ -38,8 +38,8 @@ def merge(left, right):
       result.append(right[idx_right])
       idx_right += 1
 
-# pprint(merge_sort([1, 2, 3]))
-# pprint(merge_sort([2, 1, 3]))
-# pprint(merge_sort(['a', 'b', 'c']))
-# pprint(merge_sort(['b', 'a', 'c']))
+pprint(merge_sort([1, 2, 3]))
+pprint(merge_sort([2, 1, 3]))
+pprint(merge_sort(['a', 'b', 'c']))
+pprint(merge_sort(['b', 'a', 'c']))
 pprint(merge_sort(list('The quick brown fox jumps over the lazy dog')))
