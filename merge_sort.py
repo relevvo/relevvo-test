@@ -1,5 +1,24 @@
 import unittest
 
+"""
+merge sort
+  N log N
+
+  In a best case, all of left and right lists will be sorted and it will
+  march through the first and then append the second at each step. Using
+  a recursive solution incurs some overhead. 
+
+  For merge, worst case is that each compare swaps the march.
+
+  In production, I would choose based on profiling, but especially initially
+  the best code is what's already provided in an StdLib.
+
+  In Python I was able to skip cases like mixes of numbers and characters.
+  Languages like JS need to handle the mix of those as well as undefined,
+  null, true, false, etc.
+
+"""
+
 def merge_sort(items):
   return merge(split(items), None)
 
