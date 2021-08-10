@@ -45,3 +45,17 @@ Without being disresepctul or adversarial, please defend your choice. Try and fr
 Present a short written answer for this and prepare some thoughts for a verbal discussion.
 
 **YOU CAN ADD YOUR WRITTEN DISCUSSIONS BELOW IN THIS README**
+
+## Note for those applying for a Frontend or Web Backend Developer or Fullstack developer Role
+
+You can subsitute the sorting problem above for an alternative which applies more to your problem area. 
+
+For example, you could bootstrap a web backend from scratch which might include managing user authentication, database models, migrations, etc. Entities that you might want to manage using this app could be a set of Contacts and Companies. 
+
+A few views which allow CRUD of the entities would help. 
+
+The frontend is a React app, so maybe the most natural way is to start with create-next-app (https://nextjs.org/docs/api-reference/create-next-app).
+
+For the debate question, you can subsitute Python v/s Golang with a comparison of the tradeoffs of two web backend frameworks which can be used to build API endpoints and views to support a React.js app. For example, Next.js v/s Django.
+
+You could submit all of the above as a pull request on this repository or a new GitHub repository. 
