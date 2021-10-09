@@ -49,7 +49,7 @@ You can subsitute the sorting problem above for an alternative which applies mor
 
 For example, you could bootstrap a web backend from scratch which might include managing user authentication, database models, migrations, etc. Entities that you might want to manage using this app could be a set of Contacts and Companies. 
 
-A few views which allow CRUD of the entities would help. If you are frontend focussed, then make the views look good. if you are backend focussed, work more on the database models and such.
+A few views which allow CRUD of the entities would help. If you are frontend focussed, then make the views look good. If you are backend focussed, work more on the database models and such.
 
 The frontend is a React app, so maybe the most natural way is to start with create-next-app (https://nextjs.org/docs/api-reference/create-next-app).
 
