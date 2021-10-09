@@ -7,8 +7,7 @@ Hi, Welcome to the problem statement of the Relevvo Engineering Test. Before we 
     b. GitHub dev/PR process during the solving of the presented problem. Please submit multiple PRs and self approve them as you evolve your solution.
 2. Debate Question. To showcase the ability to articulate.
 
-But first, I'd like to make clear as to what this test is not. We are interviewing senior people for a startup, not mid level or junior people in a FAANG setup. So,
-the things we are lookng for are slightly different:
+Things we are looking for:
 
 1. Some communication polish expected of a senior person.
 2. In keeping with time pressure in a startup, some brevity and wit along with 1 above.
@@ -18,7 +17,7 @@ the things we are lookng for are slightly different:
 6. The ability to architect for future 'improvability'.
 7. The ability to provide nuanced reasoning of design choices.
 
-This is not a FAANG interview. I am not looking for very advanced architectures or scholarly knowledge of advanced programming paradigms. I don't expect you to remember advanced algorithms learnt in CS courses which you typically do not encounter in regular work. And there won't be any tricks or puzzles.
+We are not looking for very advanced architectures or scholarly knowledge of advanced programming paradigms. We don't expect you to remember advanced algorithms learnt in CS courses which you typically do not encounter in regular work. And there won't be any tricks or puzzles.
 
 We are most likely going to work in a remote only setting. So, we are most likely going to need the ability to collaborate across time zones in written form with not-so-many verbal meetings.
 
@@ -48,14 +47,15 @@ Present a short written answer for this and prepare some thoughts for a verbal d
 
 ## Note for those applying for a Frontend or Web Backend Developer or Fullstack developer Role
 
-You can subsitute the sorting problem above for an alternative which applies more to your problem area. 
+You can subsitute the sorting problem above for an alternative which applies more to your skillset. 
 
 For example, you could bootstrap a web backend from scratch which might include managing user authentication, database models, migrations, etc. Entities that you might want to manage using this app could be a set of Contacts and Companies. 
 
-A few views which allow CRUD of the entities would help. 
+A few views which allow CRUD of the entities would help. If you are frontend focussed, then make the views look good. if you are backend focussed, work more on the database models and such.
 
 The frontend is a React app, so maybe the most natural way is to start with create-next-app (https://nextjs.org/docs/api-reference/create-next-app).
 
-For the debate question, you can subsitute Python v/s Golang with a comparison of the tradeoffs of two web backend frameworks which can be used to build API endpoints and views to support a React.js app. For example, Next.js v/s Django.
+For the debate question, you can subsitute Python v/s Golang with a comparison of the tradeoffs of two web backend frameworks which can be used to build API endpoints and views to support a React.js app. For example, Next.js v/s Django. Or if you are frontend focus, maybe a comparison of React v/s Vue.
 
-You could submit all of the above as a pull request on this repository or a new GitHub repository. 
+You could submit all of the above as a pull request on this repository or a new GitHub repository.
+
