@@ -53,7 +53,7 @@ A few views which allow CRUD of the entities would help. If you are frontend foc
 
 The frontend is a React app, so maybe the most natural way is to start with create-next-app (https://nextjs.org/docs/api-reference/create-next-app).
 
-For the debate question, you can subsitute Python v/s Golang with a comparison of the tradeoffs of two web backend frameworks which can be used to build API endpoints and views to support a React.js app. For example, Next.js v/s Django. Or if you are frontend focus, maybe a comparison of React v/s Vue.
+For the debate question, you can subsitute Python v/s Golang with a comparison of the tradeoffs of two web backend frameworks which can be used to build API endpoints and views to support a React.js app. For example, Next.js v/s Django. Or if you are frontend focussed, maybe a comparison of React v/s Vue.
 
 You could submit all of the above as a pull request on this repository or a new GitHub repository.
 
