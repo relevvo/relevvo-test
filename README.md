@@ -37,8 +37,6 @@ Assume that I am a senior person who is slightly hostile to others who do not to
 
 You've chosen Python as your programming language choice and one day I confront you with the dismissive comment: Python is a slow language. It is not even a real programming language. Golang is so much better. It is compiled and executes much faster. Let's switch over.
 
-This is a fun question, and please treat it as such.
-
 Without being disresepctul or adversarial, please defend your choice. Try and frame it as an optimisation rather than a right v/s wrong choice. And feel free to point to real life examples and online commentary to illustrate that.
 
 Present a short written answer for this and prepare some thoughts for a verbal discussion.
