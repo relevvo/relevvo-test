@@ -13,17 +13,32 @@ export default function UserContextComp({ children }) {
       try {
         if (user) {
           // User is signed in.
+          console.log('User authenticated', user.uid)
           const { uid, displayName, email, photoURL } = user
+
           // You could also look for the user doc in your Firestore (if you have one):
           // const userDoc = await firebase.firestore().doc(`users/${uid}`).get()
           setUser({ uid, displayName, email, photoURL })
-        } else setUser(null)
+        } else {
+          setUser(null)
+        }
       } catch (error) {
         // Most probably a connection error. Handle appropriately.
+        console.error('Error authenticating user', error)
       } finally {
         setLoadingUser(false)
       }
     })
+
+    // Authenticate anoymously
+    firebase.auth().signInAnonymously()
+      .then(() => {
+        // // Signed in..
+        console.log('Signed in anonymously')
+      })
+      .catch((error) => {
+        console.error('Error signing anonymously', { error })
+      })    
 
     // Unsubscribe auth listener on unmount
     return () => unsubscriber()

@@ -1,7 +1,8 @@
-import admin from '../firebase/nodeApp'
+import firebase from '../firebase/clientApp'
 
 export const getProfileData = async (username) => {
-  const db = admin.firestore()
+  // console.log('getProfileData', { username } )
+  const db = firebase.firestore()
   const profileCollection = db.collection('profile')
   const profileDoc = await profileCollection.doc(username).get()
 

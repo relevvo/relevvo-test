@@ -13,10 +13,10 @@ export default function Home() {
   useEffect(() => {
     if (!loadingUser) {
       // You know that the user is loaded: either logged in or out!
-      console.log(user)
+      console.log('user', user)
     }
     // You also have your firebase app initialized
-    console.log(firebase)
+    // console.log('firebase', firebase)
   }, [loadingUser, user])
 
   const createUser = async () => {
@@ -46,7 +46,7 @@ export default function Home() {
           Please press the link below after adding the user
         </p>
         <Link href={`/profile/${profile.username}`} passHref>
-          <a>Go to SSR Page</a>
+          <a>Go to CSR Page</a>
         </Link>
       </main>
 
